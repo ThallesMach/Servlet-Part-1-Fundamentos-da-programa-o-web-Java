@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //olaa
-@WebServlet(urlPatterns="/olaa")
+@WebServlet(urlPatterns="/olaa")  //	http://localhost:8080/gerenciadorr/olaa
 public class OlaMunadoServlets extends HttpServlet {
 	
 	@Override
@@ -19,14 +19,13 @@ public class OlaMunadoServlets extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<body>");
-		out.println("--->>> Ola Mundo Servlet... ");
+		out.println("--->>> Ola Mundo Servlets... ");
 		out.println("</body>");
 		out.println("</html>");
 		
-		System.out.println("Chama do Servlet OlaMundoVServlet !!!");
+		System.out.println("_Foi chama do Servlet OlaMundoVServlet !!!");
 		
 	}
-	
 	
 
 }
