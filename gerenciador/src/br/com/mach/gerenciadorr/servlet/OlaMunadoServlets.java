@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //olaa
-@WebServlet(urlPatterns="/olaa")  //	http://localhost:8080/gerenciadorr/olaa
+@WebServlet(urlPatterns="/olaa")  //	http://localhost:8080/gerenciador/olaa
 public class OlaMunadoServlets extends HttpServlet {
 	
 	@Override
