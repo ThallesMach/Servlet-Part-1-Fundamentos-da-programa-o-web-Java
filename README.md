@@ -1,7 +1,7 @@
 # Servlet-Parte-1
 Practicing Servlet Parte 1: Fundamentos da programação web Java na Alura_
 
-_Usei Eclipse 2018-09 com Tomcat 9.0.12 no Linux Mint18
+_Usei Eclipse 2018-09 com Tomcat 9.0.12 no LinuxMint19
 
 java -version 
 
